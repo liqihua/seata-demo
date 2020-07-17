@@ -2,6 +2,8 @@ package com.liqihua.demo.seata.springboot.order.service;
 
 public interface OrderService {
 
-    void insert(Long userId, Integer num, Long amount);
+    void testCommit(Long userId, Integer num, Long amount);
+
+    void testRollback(Long userId, Integer num, Long amount);
 
 }
